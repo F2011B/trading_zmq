@@ -32,13 +32,6 @@ total_value = 0
 
 avlist= collections.deque(maxlen=10)
 
-def sma(avlist):
-    sum(i for i in avlist) /len(avlist)
-
-def ema(avg, new_sample, n_length=10):
-    avg -= avg / n_length
-    avg += new_sample / n_length
-    return avg
 
 while True:
     string = socket.recv().decode("utf-8", "strict")      
