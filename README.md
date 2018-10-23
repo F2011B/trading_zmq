@@ -1,0 +1,2 @@
+# trading_zmq
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3adf2edc1bd242e394058ebaf924fff0)](https://app.codacy.com/app/F2011B/trading_zmq?utm_source=github.com&utm_medium=referral&utm_content=F2011B/trading_zmq&utm_campaign=Badge_Grade_Dashboard)
