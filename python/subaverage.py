@@ -2,7 +2,6 @@ import sys
 import zmq
 import collections
 
-
 port = "5556"
 if len(sys.argv) > 1:
     port = sys.argv[1]
@@ -28,11 +27,7 @@ socket.setsockopt_string(zmq.SUBSCRIBE, '')
 # Process 5 updates
 total_value = 0
 
-
-
 avlist = collections.deque(maxlen=10)
-
-
 while True:
     string = socket.recv().decode("utf-8", "strict")      
     if string.split()[0] == 'EUR_USD':

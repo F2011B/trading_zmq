@@ -20,11 +20,8 @@ def test_ema():
     average=0
     for i in values:
         average=ema(average, i )
-        # print(average)
 
     values.append(20)
-    exptest = ExpMovingAverage( values, 10   )
-    # print(exptest)
     assert(abs(14.59939377261759 - average)< 0.001)
 
 def test_macd():
