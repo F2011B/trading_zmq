@@ -3,6 +3,8 @@
 
 [![Build Status](https://travis-ci.org/F2011B/trading_zmq.svg?branch=master)](https://travis-ci.org/F2011B/trading_zmq)
 
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+
 ## Python trading framework using zeromq 
 
 A publisher is used to deliver data to the first subscriber.
