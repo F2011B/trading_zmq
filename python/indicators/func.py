@@ -33,6 +33,6 @@ def macd(
     new_longema = ema(long_ema, new_sample, n_longema)
     new_shortema = ema(short_ema, new_sample, n_shortema)
     macd_res = new_shortema - new_longema
-    new_signalema = ema(signal_ema, macd, n_signal_ema)
+    new_signalema = ema(signal_ema, macd_res, n_signal_ema)
 
     return macd_res, new_signalema, new_shortema, new_longema
